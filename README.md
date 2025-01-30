@@ -1,4 +1,11 @@
- Register API
+# Federal Register Executive Orders Text Extractor
+
+This script downloads executive orders from the Federal Register, extracts their text content, and creates a consolidated JSON file containing both the metadata and full text of each order.
+
+## Description
+
+The script performs the following operations:
+1. Downloads a JSON file containing metadata about executive orders from the Federal Register API
 2. Downloads PDF versions of each executive order
 3. Extracts text content from the PDFs
 4. Creates a new JSON file that includes both the original metadata and extracted text content
