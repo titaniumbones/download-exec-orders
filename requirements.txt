@@ -1,2 +1,4 @@
 requests>=2.31.0
 PyPDF2>=3.0.0
+beautifulsoup>=4.12.3
+
